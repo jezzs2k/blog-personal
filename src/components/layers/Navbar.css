@@ -1,0 +1,31 @@
+.navbar {
+  border-bottom: 1px solid #f0f0f0;
+  position: relative;
+}
+
+.navbar-nav {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 16px;
+  background: #f8f8f8;
+}
+.navbar-nav a {
+  line-height: 30px;
+  padding: 0 8px;
+}
+.app-list {
+  margin-top: 16px;
+}
+
+.editor-word {
+  position: absolute;
+  right: 0;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+  .editor-word {
+    font-size: 1em;
+    top: 0;
+  }
+}

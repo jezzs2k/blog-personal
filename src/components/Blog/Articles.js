@@ -1,0 +1,11 @@
+import React from 'react';
+import renderHTML from 'react-render-html';
+
+const blog =
+  '<h1><a href="https://toidicodedao.com/2020/06/09/sap-server-co-phai-muon-doi-phan-2-cach-viet-post-mortem-nhin-lai-van-de-sau-khi-xu-ly-xong-su-co/">SẬP SERVER C&Oacute; PHẢI MU&Ocirc;N ĐỜI &ndash; PHẦN 2: C&Aacute;CH VIẾT POST-MORTEM, NH&Igrave;N LẠI VẤN ĐỀ SAU KHI XỬ L&Yacute; XONG SỰ CỐ</a></h1><p><a href="https://toidicodedao.com/2020/06/09/sap-server-co-phai-muon-doi-phan-2-cach-viet-post-mortem-nhin-lai-van-de-sau-khi-xu-ly-xong-su-co/">09/06/2020</a>&nbsp;<a href="https://toidicodedao.com/2020/06/09/sap-server-co-phai-muon-doi-phan-2-cach-viet-post-mortem-nhin-lai-van-de-sau-khi-xu-ly-xong-su-co/#respond">LEAVE A COMMENT</a></p><p>Đ&acirc;y l&agrave; phần 2 trong series 3 phần &ldquo;Sập Server c&oacute; phải mu&ocirc;n đời&rdquo;.</p><ol><li><a href="https://toidicodedao.com/2020/06/02/sap-server-co-phai-muon-doi-phan-1-lam-gi-khi-he-thong-sap-bat-ngo/">L&agrave;m g&igrave; khi hệ thống sập bất ngờ &ndash; X&aacute;ch quần l&ecirc;n c&ocirc;ng ty</a></li><li>Viết post-mortem sau khi xử l&yacute; sự cố &ndash; Đừng chỉ tr&iacute;ch hay đổ lỗi</li><li>Những phương ph&aacute;p ph&ograve;ng chống/monitoring &ndash; Gi&uacute;p anh em ngủ ngon kh&ocirc;ng lo server sập</li></ol><p>&nbsp;</p><p>Ở k&igrave; trước, ch&uacute;ng ta đ&atilde; c&ugrave;ng bạn H&ugrave;ng xấu số t&igrave;m ra lỗi, kh&ocirc;i phục hệ thống chạy lại như thường. Ở k&igrave; n&agrave;y, ch&uacute;ng ta sẽ c&ugrave;ng t&igrave;m hiểu về những điều ch&uacute;ng ta n&ecirc;n l&agrave;m,&nbsp;<strong>c&aacute;ch viết post-moterm</strong>&nbsp;sau khi sự cố xảy ra nha.</p><p>Những điều n&agrave;y tuy nhỏ nhưng v&ocirc; c&ugrave;ng quan trọng, v&igrave; n&oacute; gi&uacute;p ch&uacute;ng ta tr&aacute;nh được những sai lầm tương tự trong tương lại đấy.</p><p><a href="https://toidicodedao.com/2020/06/09/sap-server-co-phai-muon-doi-phan-2-cach-viet-post-mortem-nhin-lai-van-de-sau-khi-xu-ly-xong-su-co/#more-8300">Continue reading&nbsp;Sập Server c&oacute; phải mu&ocirc;n đời &ndash; Phần 2: C&aacute;ch viết post-mortem, nh&igrave;n lại vấn đề sau khi xử l&yacute; xong sự cố&rarr;</a></p>';
+
+const BlogDetailsPage = () => {
+  return <div className='articles-detail'>{renderHTML(blog)}</div>;
+};
+
+export default BlogDetailsPage;

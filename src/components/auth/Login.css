@@ -1,0 +1,15 @@
+.login {
+  margin: auto;
+  max-width: 80%;
+  position: fixed;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-30%) translateX(-50%);
+}
+
+.login .title {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 5px;
+}
